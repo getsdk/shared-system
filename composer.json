@@ -1,0 +1,33 @@
+{
+    "name": "getsdk/shared-system",
+    "description": "Shared system package for GetSDK.",
+    "keywords": [
+        "getsdk",
+        "getsdk shared",
+        "getsdk shared system"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/getsdk/shared-system",
+    "authors": [
+        {
+            "name": "bu0nq",
+            "email": "hello@bu0nq.ru",
+            "homepage": "https://bu0nq.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GetSDK\\Shared\\System\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
